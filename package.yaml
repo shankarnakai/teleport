@@ -1,10 +1,10 @@
 name:                teleport
 version:             0.1.0.0
-github:              "githubuser/teleport"
+github:              "shankarnakai/teleport"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2018 Author name here"
+author:              "Shankar Nakai Gonçalves dos Santos"
+maintainer:          "shankar.nakai@gmail.com"
+copyright:           "2018 Shankar Nakai Gonçalves dos Santos"
 
 extra-source-files:
 - README.md
@@ -21,6 +21,13 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- optparse-applicative
+- aeson
+- turtle
+- ansi-terminal
+- text
+- bytestring
+- system-filepath
 
 library:
   source-dirs: src
